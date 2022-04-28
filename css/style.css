@@ -22,13 +22,15 @@ body{
 
 #jumbo{
     color: white;
+    background-image: url(../img/jumbo-bg.png);
+    height: 500px;
+    width: 100%;
 }
-
-.jumbo-back{
-    position: relative;
-}
-.jumbo-absolute{
-    position: absolute;
-    right: 100px;
-    bottom: 70px;
+.carosel-jumbo{
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+    margin-top: 20px;
+    
 }

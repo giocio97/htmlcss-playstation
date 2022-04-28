@@ -132,13 +132,13 @@ body{
     margin: 50px 0;
     background-color: #bebcbb;
 }
-#play-pluslogo-img{
+.play-logo-img{
     height: 80px;
     width: 350px;
     object-fit: contain;
     margin: 40px 0;
 }
-#play-plus-img{
+.play-banner-img{
     height: 500px;
 }
 
@@ -149,3 +149,8 @@ body{
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+/* playstation-now */
+ #playstation-now{
+     background-color: #161c3b;
+ }

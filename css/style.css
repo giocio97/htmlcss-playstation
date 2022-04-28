@@ -6,15 +6,20 @@ body{
     display: block;
     text-decoration: none;
     text-align: center;
+   
     padding: 5px;
     border-radius: 20px;
     color: rgb(16, 143, 227);
     margin-top: 10px;
 
     /* debug */
-    border: solid 1px rgb(0, 191, 255);
-    width: 200px;
+    
 }
+
+.bottone:hover{
+    border:inset 1px white;
+}
+
 
 
     /* header */
@@ -40,7 +45,9 @@ body{
     background-image: url(../img/jumbo-bg.png);
     min-height: 500px;
     width: 100%;
-    background-size:cover ;
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
 }
 
 #banner-returnal{
@@ -48,6 +55,12 @@ body{
     width: 200px;
     height: 50px;
     margin: 20px 0;
+}
+
+.btn-jumbo{
+    background-color: #cd3d0f;
+    color: white;
+    width:125px ;
 }
 .carosel-jumbo{
     object-fit: cover;
@@ -79,6 +92,21 @@ body{
     width: 100%;
     height: 500px;
     object-fit: contain;
+    
+}
+
+.opaco{
+    opacity: 0.5;
+}
+
+.opaco:hover{
+    opacity: 1;
+}
+
+.btn-play5{
+    width: 180px;
+    background-color: #2d64e6;
+    color: white;
 }
 
 .gallery-ps5{
@@ -93,6 +121,9 @@ body{
     background-size: cover ;
     min-height: 500px;
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
     
 }
 
@@ -127,6 +158,12 @@ body{
     
 }
 
+.btn-play4{
+    width: 110px;
+    background-color: #2d64e6;
+    color: white;
+}
+
 /* playstation-plus */
 
 #playstation-plus{
@@ -143,6 +180,12 @@ body{
     height: 500px;
 }
 
+.btn-play-plus{
+    background-color: #d9dadc;
+    width: 200px;
+    
+}
+
 /* playstation-store */
 .img-ps-store{
     width: 100%;
@@ -154,6 +197,7 @@ body{
 /* playstation-now */
  #playstation-now{
      background-color: #161c3b;
+     color: white;
  }
 
  /* section-social */

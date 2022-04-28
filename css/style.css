@@ -71,6 +71,7 @@ body{
 .sottotitolo{
     margin-top: 20px;
     color: rgb(120, 120, 120);
+    display: block;
 
 }
 #play-5-img{
@@ -122,4 +123,20 @@ body{
     height: 200px;
     
     object-fit: contain;
+}
+
+/* playstation-plus */
+
+#playstation-plus{
+    margin: 50px 0;
+    background-color: #bebcbb;
+}
+#play-pluslogo-img{
+    height: 80px;
+    width: 350px;
+    object-fit: contain;
+    margin: 40px 0;
+}
+#play-plus-img{
+    height: 500px;
 }

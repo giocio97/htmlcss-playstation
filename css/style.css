@@ -2,6 +2,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bottone{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(16, 143, 227);
+    margin-top: 10px;
+
+    /* debug */
+    border: solid 1px rgb(0, 191, 255);
+    width: 200px;
+}
+
 
     /* header */
 
@@ -26,6 +40,7 @@ body{
     background-image: url(../img/jumbo-bg.png);
     height: 500px;
     width: 100%;
+    background-size:cover ;
 }
 
 #banner-returnal{
@@ -37,7 +52,7 @@ body{
     object-fit: cover;
     width: 200px;
     height: 100px;
-    border-radius: 15%;
+    border-radius: 15px;
     margin-top: 20px;
     
 }
@@ -66,6 +81,36 @@ body{
 .gallery-ps5{
     width: 100%;
     height: 200px;
+    
+    object-fit: contain;
+}
+
+#it-take-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover ;
+    min-height: 500px;
+    color: white;
+    
+}
+
+#it-take-two img{
+    object-fit: contain;
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+}
+
+/* nuove uscite */
+#nuove-uscite{
+    color: white;
+    background-color: #1f1f1f;
+
+}
+
+.nuove-uscite-img{
+    width: 170px;
+    height: 170px;
+    border-radius: 20px; 
     
     object-fit: contain;
 }

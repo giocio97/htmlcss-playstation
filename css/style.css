@@ -85,7 +85,7 @@ main{
 }
 .carosel-jumbo{
     object-fit: cover;
-    width: 200px;
+    width: 100%;
     height: 100px;
     border-radius: 15px;
     margin-top: 20px;
@@ -247,7 +247,7 @@ main{
 
  /* section-social */
 .img-ps-social{
-    width: 120px;
+    width: 100%;
     height: 120px;
     object-fit: contain;
     margin-bottom: 20px;

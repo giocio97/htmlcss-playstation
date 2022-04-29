@@ -27,11 +27,15 @@ h3{
 
 
     /* header */
-
+header{ 
+    position: fixed;
+    width: 100%;
+   
+}
 
 #header-up{
     background-color:black ;
-    height: 80px;
+    height: 60px;
    
 }
 
@@ -40,7 +44,16 @@ h3{
     width: 80px;
     height: 80px;
 }
+#lens{
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+}
 
+
+main{
+    padding-top: 122px;
+}
 
             /* jumbotron */
 
@@ -52,6 +65,7 @@ h3{
     background-size:cover;
     background-position:top;
     background-repeat: no-repeat;
+    
 }
 
 #banner-returnal{
@@ -154,7 +168,7 @@ h3{
 
 #nuove-uscite span{
     display: block;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 #nuove-uscite h3,h4 {

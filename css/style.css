@@ -88,6 +88,12 @@ main{
     border-radius: 15px;
     margin-top: 20px;
     
+    
+}
+
+.carosel-jumbo:hover{
+    scale: 1.2;
+    
 }
 
     /* section play-5 */

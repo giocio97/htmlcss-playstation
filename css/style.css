@@ -2,6 +2,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3{
+    font-size: 45px;
+}
+
 .bottone{
     display: block;
     text-decoration: none;
@@ -61,6 +65,7 @@ body{
     background-color: #cd3d0f;
     color: white;
     width:125px ;
+    margin-bottom: 20px;
 }
 .carosel-jumbo{
     object-fit: cover;
@@ -107,6 +112,7 @@ body{
     width: 180px;
     background-color: #2d64e6;
     color: white;
+    margin-bottom: 20px;
 }
 
 .gallery-ps5{
@@ -139,6 +145,15 @@ body{
     color: white;
     background-color: #1f1f1f;
 
+}
+
+#nuove-uscite span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#nuove-uscite h3,h4 {
+    margin: 20px;
 }
 
 .nuove-uscite-img{
@@ -177,7 +192,8 @@ body{
     margin: 40px 0;
 }
 .play-banner-img{
-    height: 500px;
+    max-width: 400px;
+    
 }
 
 .btn-play-plus{
@@ -212,4 +228,10 @@ body{
  footer{
      background-color: #00439c;
      color: white;
+ }
+
+ #logo-play-ft{
+     width: 100px;
+     height: 100px;
+     object-fit: contain;
  }

@@ -122,6 +122,11 @@ h3{
     object-fit: contain;
 }
 
+.console-ps5{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2083d4;
+}
+
 #it-take-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover ;
@@ -199,6 +204,7 @@ h3{
 .btn-play-plus{
     background-color: #d9dadc;
     width: 200px;
+    margin-bottom: 20px;
     
 }
 
